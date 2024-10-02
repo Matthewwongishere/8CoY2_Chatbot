@@ -1,1 +1,2 @@
-listy1.0 = ["CAVIAR","]
+listy = ["CAVIAR","SUKIYAKI","SUSHI","SASHIMI"]
+print(listy1.0[0])
