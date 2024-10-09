@@ -17,9 +17,9 @@ if move == "north":
     print(mountains)
     goCave = input("Would you like to enter the cave?")
     if goCave == "yes":
-                   if "torch" in inventory:
-                           print(torchcave)
-                   print(cave)
+                    if "torch" in inventory:
+                            print(torchcave)
+                    print(cave)
 elif move == "east":
     print(plains)
     if not "torch" in inventory:
