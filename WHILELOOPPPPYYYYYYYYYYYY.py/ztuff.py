@@ -1,6 +1,6 @@
 #Adventure Game
-
 #LOCATIONS / MESSAGES
+
 mountains = "you are in a snowy mountain, you see a cave"
 plains = "you find yourself in a grassy plain, there's a tree nearby"
 forest = "you find yourself in a deep dark forest"
@@ -9,9 +9,10 @@ cave = "you enter a pitch black cave, you can't see anything"
 torchcave = "you use the flashlight and see there's a D3AD BODY! in the centre of the cave."
 inventory = []
 punch = ("you have performed a punch, HAI-YAA!")
+fist = ("just a thingy")
 
 #LOGIC
-inventory.append(")
+inventory.append(fist)
 print(welcome)
 print(forest)
 move = input("which direction do you want to go?")
