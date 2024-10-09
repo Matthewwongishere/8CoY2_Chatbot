@@ -11,6 +11,7 @@ inventory = []
 punch = ("you have performed a punch, HAI-YAA!")
 
 #LOGIC
+inventory.append(")
 print(welcome)
 print(forest)
 move = input("which direction do you want to go?")
