@@ -38,6 +38,13 @@ punchy = input("Do you want to punch air?")
 if punchy == "yes":
         print(punch)
 song = input("Do you want the lyrics to Coldplay (it was ALLL YELLOOOWWW)")
-if 
+if song == "yes" or song == "YES":
+        print(songy)
+if song == "no" or song == "NO":
+        print("I am going to give it to you anyways!")
+        print(songy)
+else:
+        print("I am going to give it to you anyways!")
+        print(songy)
 
 
