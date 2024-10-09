@@ -8,6 +8,7 @@ welcome = "Welcome adventurer!"
 cave = "you enter a pitch black cave, you can't see anything"
 torchcave = "you use the flashlight and see there's a D3AD BODY! in the centre of the cave."
 inventory = []
+punch = ("you have performed a punch, HAI-YAA!")
 
 #LOGIC
 print(welcome)
@@ -30,4 +31,7 @@ elif move == "east":
 lookin = input("Do you want to look at your inventory?")
 if lookin == "yes":
         print(inventory)
+punchy = input("Do you want to punch air?")
+if punchy == "yes":
+        print(punch)
 
