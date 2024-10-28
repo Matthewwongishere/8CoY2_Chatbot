@@ -1,2 +1,2 @@
-for num in range(1,30,3):
+for num in range(1,30,2):
     print(num)
