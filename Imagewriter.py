@@ -6,7 +6,8 @@ img.write("P3") #magic number
 img.write("640 480") # width and height
 img.write("255") # Max colour depth
 
-for pixel in range(640):
+for row in range(480):
+    for pixel in range(640):
     img.write("255 0 0 ")
 
 
