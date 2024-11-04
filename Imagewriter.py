@@ -1,6 +1,6 @@
 #imagewriter.py
 
-img = open("test.txt","w")
+img = open("testimage.ppm","w")
 
 img.write("Hello")
 
